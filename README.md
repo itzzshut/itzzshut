@@ -26,11 +26,11 @@ I'm a final-year Computer Science and Engineering student who loves building sca
 #### Software Engineer Intern | Louisa AI
 📍 Remote | Jan 2026 – May 2026
 
-- Contributing to an internal release automation platform used across engineering teams.
-- Building GitHub integrations involving backend services, database models, and webhook handling.
-- Developing APIs for workflow execution and deployment monitoring.
-- Integrating Slack notifications for real-time updates and approvals.
-- Shipping full-stack features using React, React Flow, TanStack, Hono, Bun, Drizzle ORM, and oRPC.
+- Contributed to an internal release automation platform used across engineering teams.
+- Build GitHub integrations involving backend services, database models, and webhook handling.
+- Developed APIs for workflow execution and deployment monitoring.
+- Integrated Slack notifications for real-time updates and approvals.
+- Shipped full-stack features using React, React Flow, TanStack, Hono, Bun, Drizzle ORM, and oRPC.
 
 ---
 
