@@ -24,7 +24,7 @@ I'm a final-year Computer Science and Engineering student who loves building sca
 ### 💼 Experience
 
 #### Software Engineer Intern | Louisa AI
-📍 Remote | Jan 2026 – Present
+📍 Remote | Jan 2026 – May 2026
 
 - Contributing to an internal release automation platform used across engineering teams.
 - Building GitHub integrations involving backend services, database models, and webhook handling.
