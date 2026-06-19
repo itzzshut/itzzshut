@@ -21,17 +21,30 @@ I'm a final-year Computer Science and Engineering student who loves building sca
 
 ---
 
+### 💼 Experience
+
+#### Software Engineer Intern | Louisa AI
+📍 Remote | Jan 2026 – Present
+
+- Contributing to an internal release automation platform used across engineering teams.
+- Building GitHub integrations involving backend services, database models, and webhook handling.
+- Developing APIs for workflow execution and deployment monitoring.
+- Integrating Slack notifications for real-time updates and approvals.
+- Shipping full-stack features using React, React Flow, TanStack, Hono, Bun, Drizzle ORM, and oRPC.
+
+---
+
 ### 🎓 Education
 
 * 🎓 **Jadavpur University, Kolkata**
 
   * B.E. in Computer Science and Engineering
-  * Expected Graduation: June 2026
+  * Graduation: June 2026
   * GPA: **7.7/10**
 
 * 🏫 **Happy Model School, Udhampur**
 
-  * JKBOSE Class XII
+  * Class XII
   * Scored **98.6%**
   * Secured **6th Rank in the State**
 
@@ -79,19 +92,6 @@ I'm a final-year Computer Science and Engineering student who loves building sca
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
 </p>
-
----
-
-### 💼 Experience
-
-#### Software Engineer Intern | Louisa AI
-📍 Remote | Jan 2026 – Present
-
-- Contributing to an internal release automation platform used across engineering teams.
-- Building GitHub integrations involving backend services, database models, and webhook handling.
-- Developing APIs for workflow execution and deployment monitoring.
-- Integrating Slack notifications for real-time updates and approvals.
-- Shipping full-stack features using React, React Flow, TanStack, Hono, Bun, Drizzle ORM, and oRPC.
 
 ---
 
