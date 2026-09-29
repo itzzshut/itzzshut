@@ -4,17 +4,17 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Mariam%20Malik&fontSize=90" alt="Header" width="100%"/>
 </p>
 
-<h3 align="center">A passionate Full Stack Developer and Computer Science student from Jadavpur University, India.</h3>
+<h3 align="center">A passionate Full Stack Developer and Computer Science Engineering graduate from Jadavpur University, India.</h3>
 
 ---
 
 ### 👩‍💻 About Me
 
-I'm a final-year Computer Science and Engineering student who loves building scalable web applications and solving challenging problems through code. I enjoy transforming ideas into real-world products and continuously learning new technologies.
+I'm a Computer Science Engineering graduate from Jadavpur University who enjoys building scalable web applications, solving challenging problems, and turning ideas into real-world products. I'm particularly interested in full-stack development, backend systems, and AI-powered applications.
 
-* 🔭 🔭 I'm passionate about full-stack development, scalable backend systems, and creating impactful AI-driven applications.
-* 🌱 I’m exploring modern backend architectures, event-driven systems, and AI-powered applications.
-* 👯 I’m looking to collaborate on **open-source projects and innovative full-stack applications**.
+* 🔭 I'm passionate about **full-stack development, scalable backend systems, and AI-driven applications**.
+* 🌱 I'm exploring **modern backend architectures, event-driven systems, and AI-powered technologies**.
+* 👯 I'm looking to collaborate on **open-source projects and innovative full-stack applications**.
 * 💬 Ask me about **React, Next.js, Node.js, Express, Prisma, MongoDB, PostgreSQL, and Data Structures & Algorithms**.
 * 📫 How to reach me: **[mariammalik5100@gmail.com](mailto:mariammalik5100@gmail.com)**
 * ⚡ Fun fact: I've solved **800+ DSA problems** across various coding platforms.
