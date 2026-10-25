@@ -1,0 +1,48 @@
+<svg viewBox="0 0 860 150" width="860" height="150" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<defs>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#6D28D9"/></linearGradient>
+  <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#EC4899"/><stop offset="100%" stop-color="#BE185D"/></linearGradient>
+  <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F97316"/><stop offset="100%" stop-color="#C2410C"/></linearGradient>
+  <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#0E7490"/></linearGradient>
+  <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#34D399"/><stop offset="100%" stop-color="#047857"/></linearGradient>
+  <style>
+    .tile { opacity: 0; animation: pop .7s cubic-bezier(.2,.8,.2,1.2) forwards; transform-box: fill-box; transform-origin: center; }
+    .t1 { animation-delay: .1s; } .t2 { animation-delay: .3s; } .t3 { animation-delay: .5s; } .t4 { animation-delay: .7s; } .t5 { animation-delay: .9s; }
+    @keyframes pop { from { opacity: 0; transform: scale(.85); } to { opacity: 1; transform: scale(1); } }
+    .num { fill: #FFFFFF; font-size: 34px; font-weight: 800; }
+    .cap { fill: #FFFFFF; font-size: 12.5px; font-weight: 600; opacity: .92; }
+  </style>
+</defs>
+
+<!-- 5 tiles: width 160, gap 15, x = 5 + i*172 -->
+<g class="tile t1">
+  <rect x="5" y="10" width="160" height="130" rx="16" fill="url(#g1)"/>
+  <text class="num" x="85" y="72" text-anchor="middle">800+</text>
+  <text class="cap" x="85" y="100" text-anchor="middle">DSA problems</text>
+  <text class="cap" x="85" y="118" text-anchor="middle">solved</text>
+</g>
+<g class="tile t2">
+  <rect x="177" y="10" width="160" height="130" rx="16" fill="url(#g2)"/>
+  <text class="num" x="257" y="72" text-anchor="middle">5 mo</text>
+  <text class="cap" x="257" y="100" text-anchor="middle">SWE internship</text>
+  <text class="cap" x="257" y="118" text-anchor="middle">at Louisa AI</text>
+</g>
+<g class="tile t3">
+  <rect x="349" y="10" width="160" height="130" rx="16" fill="url(#g3)"/>
+  <text class="num" x="429" y="72" text-anchor="middle">2</text>
+  <text class="cap" x="429" y="100" text-anchor="middle">full-stack apps</text>
+  <text class="cap" x="429" y="118" text-anchor="middle">live on Vercel</text>
+</g>
+<g class="tile t4">
+  <rect x="521" y="10" width="160" height="130" rx="16" fill="url(#g4)"/>
+  <text class="num" x="601" y="72" text-anchor="middle">98.6%</text>
+  <text class="cap" x="601" y="100" text-anchor="middle">Class XII</text>
+  <text class="cap" x="601" y="118" text-anchor="middle">(JKBOSE)</text>
+</g>
+<g class="tile t5">
+  <rect x="693" y="10" width="160" height="130" rx="16" fill="url(#g5)"/>
+  <text class="num" x="773" y="72" text-anchor="middle">7.7</text>
+  <text class="cap" x="773" y="100" text-anchor="middle">GPA in B.E. CSE</text>
+  <text class="cap" x="773" y="118" text-anchor="middle">Jadavpur University</text>
+</g>
+</svg>
