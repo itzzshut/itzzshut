@@ -1,10 +1,10 @@
 <svg viewBox="0 0 860 150" width="860" height="150" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
 <defs>
-  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#6D28D9"/></linearGradient>
-  <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#EC4899"/><stop offset="100%" stop-color="#BE185D"/></linearGradient>
-  <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F97316"/><stop offset="100%" stop-color="#C2410C"/></linearGradient>
-  <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#0E7490"/></linearGradient>
-  <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#34D399"/><stop offset="100%" stop-color="#047857"/></linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#D96A8C"/><stop offset="100%" stop-color="#A8456A"/></linearGradient>
+  <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E89AAE"/><stop offset="100%" stop-color="#C56A86"/></linearGradient>
+  <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#D6A07A"/><stop offset="100%" stop-color="#A87252"/></linearGradient>
+  <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#C99AB4"/><stop offset="100%" stop-color="#91587A"/></linearGradient>
+  <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#C9A08A"/><stop offset="100%" stop-color="#8C6455"/></linearGradient>
   <style>
     .tile { opacity: 0; animation: pop .7s cubic-bezier(.2,.8,.2,1.2) forwards; transform-box: fill-box; transform-origin: center; }
     .t1 { animation-delay: .1s; } .t2 { animation-delay: .3s; } .t3 { animation-delay: .5s; } .t4 { animation-delay: .7s; } .t5 { animation-delay: .9s; }

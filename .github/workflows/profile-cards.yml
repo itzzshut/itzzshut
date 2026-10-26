@@ -1,0 +1,40 @@
+name: Profile Cards
+
+# Rebuilds the Blush profile cards (hero, profile scan, projects, languages,
+# contributions) from live GitHub data and publishes them to the "cards" branch.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PROFILE_USER: ${{ github.repository_owner }}
+        run: |
+          pip install pillow
+          python scripts/build_profile_cards.py dist
+
+      - name: Publish to cards branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: cards
+          publish_dir: dist
+          force_orphan: true
