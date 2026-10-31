@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="504" viewBox="0 0 860 504" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1C0A13"/><stop offset="55%" stop-color="#38142A"/><stop offset="100%" stop-color="#1C0A13"/></linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="50%" stop-color="#FFE3EA" stop-opacity=".09"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="48"/></filter>
+  <clipPath id="card"><rect x="1" y="1" width="858" height="502" rx="22"/></clipPath>
+  
+</defs>
+<style>
+  .fade { opacity:0; animation:fade .8s ease-out forwards; }
+  @keyframes fade { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+  @keyframes blink { 50% { opacity:0; } }
+  .blink { animation:blink 1.1s steps(1) infinite; }
+  
+  @media (prefers-reduced-motion: reduce) { * { animation:none !important; opacity:1 !important; transform:none !important; } }
+</style>
+<g clip-path="url(#card)">
+  <rect width="860" height="504" fill="url(#paper)"/>
+  <g filter="url(#glow)">
+    <circle cx="90" cy="30" r="95" fill="#E07A93" opacity=".55">
+      <animate attributeName="cx" values="90;190;90" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".55;.2;.55" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="484" r="105" fill="#C2557A" opacity=".6">
+      <animate attributeName="cy" values="484;404;484" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;.65;.3" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="534" r="95" fill="#EDB98F" opacity=".35">
+      <animate attributeName="cx" values="430;310;430" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;.12;.35" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="20" r="60" fill="#CFA0C8" opacity=".25">
+      <animate attributeName="opacity" values=".1;.35;.1" dur="10s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect x="-300" y="0" width="240" height="504" fill="url(#sheen)" transform="skewX(-18)">
+    <animate attributeName="x" values="-300;1160;1160" keyTimes="0;.4;1" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  
+  <text x="28" y="48" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14" font-weight="700" fill="#F9C3D1" letter-spacing="3">PROJECTS.LIST</text>
+  <text x="196" y="48" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#C49DA4">./projects.sh --featured</text>
+  <text x="832" y="48" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#F48FAB">4 projects</text>
+  <line x1="28" y1="64" x2="832" y2="64" stroke="#F2A7B8" stroke-width="1.2"/>
+  
+  <g class="fade" style="animation-delay:0.20s">
+    <rect x="28" y="92" width="394" height="178" rx="14" fill="#2A1120" stroke="#6E2F4C"/>
+    <path d="M 28 122 H 422" stroke="#6E2F4C"/>
+    <text x="44" y="112" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#C49DA4"><tspan fill="#F48FAB">●</tspan> itzzshut/sensai</text>
+    <circle cx="404" cy="107" r="4" fill="#F2A7B8"/>
+    <text x="46" y="150" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="16.5" font-weight="700" fill="#F9C3D1">AI Career Coach <tspan class="blink" fill="#F48FAB">_</tspan></text>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#F6E7E1"><text x="46" y="178">Gemini-powered career coach:</text><text x="46" y="195">resumes, cover letters and mock</text><text x="46" y="212">interviews.</text></g>
+    <rect x="46" y="232" width="88" height="20" rx="10" fill="#32162A" stroke="#F48FAB"/>
+    <text x="90.0" y="246" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#F48FAB">JavaScript</text>
+    <text x="146" y="246" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#C49DA4"><tspan fill="#EDB98F">★</tspan> 0 · updated 1y ago</text>
+    <circle cx="360" cy="188" r="30" fill="none" stroke="#4C2338" stroke-width="9"/>
+    <circle cx="360" cy="188" r="30" fill="none" stroke="#F48FAB" stroke-width="9" stroke-linecap="round"
+      stroke-dasharray="185.1 188.5" stroke-dashoffset="185.1" transform="rotate(-90 360 188)">
+      <animate attributeName="stroke-dashoffset" from="185.1" to="0" dur="1.4s" begin="0.40s" fill="freeze"/>
+    </circle>
+    <text x="360" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#F6E7E1">98%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.35s">
+    <rect x="438" y="92" width="394" height="178" rx="14" fill="#2A1120" stroke="#6E2F4C"/>
+    <path d="M 438 122 H 832" stroke="#6E2F4C"/>
+    <text x="454" y="112" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#C49DA4"><tspan fill="#F48FAB">●</tspan> itzzshut/spark-kafka-cassandra-pipeline</text>
+    <circle cx="814" cy="107" r="4" fill="#F2A7B8"/>
+    <text x="456" y="150" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="16.5" font-weight="700" fill="#F9C3D1">Spark Streaming Pipeline <tspan class="blink" fill="#F48FAB">_</tspan></text>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#F6E7E1"><text x="456" y="178">API → Kafka → Spark Structured</text><text x="456" y="195">Streaming → Cassandra, scheduled by</text><text x="456" y="212">Airflow.</text></g>
+    <rect x="456" y="232" width="61" height="20" rx="10" fill="#32162A" stroke="#E0707F"/>
+    <text x="486.5" y="246" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#E0707F">Python</text>
+    <text x="529" y="246" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#C49DA4"><tspan fill="#EDB98F">★</tspan> 0 · updated 5d ago</text>
+    <circle cx="770" cy="188" r="30" fill="none" stroke="#4C2338" stroke-width="9"/>
+    <circle cx="770" cy="188" r="30" fill="none" stroke="#E0707F" stroke-width="9" stroke-linecap="round"
+      stroke-dasharray="178.1 188.5" stroke-dashoffset="178.1" transform="rotate(-90 770 188)">
+      <animate attributeName="stroke-dashoffset" from="178.1" to="0" dur="1.4s" begin="0.55s" fill="freeze"/>
+    </circle>
+    <text x="770" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#F6E7E1">95%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.50s">
+    <rect x="28" y="286" width="394" height="178" rx="14" fill="#2A1120" stroke="#6E2F4C"/>
+    <path d="M 28 316 H 422" stroke="#6E2F4C"/>
+    <text x="44" y="306" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#C49DA4"><tspan fill="#F48FAB">●</tspan> itzzshut/Vehiql</text>
+    <circle cx="404" cy="301" r="4" fill="#F2A7B8"/>
+    <text x="46" y="344" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="16.5" font-weight="700" fill="#F9C3D1">Vehiql <tspan class="blink" fill="#F48FAB">_</tspan></text>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#F6E7E1"><text x="46" y="372">AI car marketplace with Gemini image</text><text x="46" y="389">search and test-drive booking.</text></g>
+    <rect x="46" y="426" width="88" height="20" rx="10" fill="#32162A" stroke="#F48FAB"/>
+    <text x="90.0" y="440" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#F48FAB">JavaScript</text>
+    <text x="146" y="440" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#C49DA4"><tspan fill="#EDB98F">★</tspan> 0 · updated 1y ago</text>
+    <circle cx="360" cy="382" r="30" fill="none" stroke="#4C2338" stroke-width="9"/>
+    <circle cx="360" cy="382" r="30" fill="none" stroke="#F48FAB" stroke-width="9" stroke-linecap="round"
+      stroke-dasharray="187.1 188.5" stroke-dashoffset="187.1" transform="rotate(-90 360 382)">
+      <animate attributeName="stroke-dashoffset" from="187.1" to="0" dur="1.4s" begin="0.70s" fill="freeze"/>
+    </circle>
+    <text x="360" y="386" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#F6E7E1">99%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.65s">
+    <rect x="438" y="286" width="394" height="178" rx="14" fill="#2A1120" stroke="#6E2F4C"/>
+    <path d="M 438 316 H 832" stroke="#6E2F4C"/>
+    <text x="454" y="306" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#C49DA4"><tspan fill="#F48FAB">●</tspan> itzzshut/real-time-financial-analysis-trad…</text>
+    <circle cx="814" cy="301" r="4" fill="#F2A7B8"/>
+    <text x="456" y="344" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="16.5" font-weight="700" fill="#F9C3D1">Real-Time Trading <tspan class="blink" fill="#F48FAB">_</tspan></text>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#F6E7E1"><text x="456" y="372">Kafka microservices computing EMA /</text><text x="456" y="389">RSI and streaming live trade</text><text x="456" y="406">signals.</text></g>
+    <rect x="456" y="426" width="48" height="20" rx="10" fill="#32162A" stroke="#FFC2D1"/>
+    <text x="480.0" y="440" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#FFC2D1">HTML</text>
+    <text x="516" y="440" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" fill="#C49DA4"><tspan fill="#EDB98F">★</tspan> 0 · updated 5d ago</text>
+    <circle cx="770" cy="382" r="30" fill="none" stroke="#4C2338" stroke-width="9"/>
+    <circle cx="770" cy="382" r="30" fill="none" stroke="#FFC2D1" stroke-width="9" stroke-linecap="round"
+      stroke-dasharray="65.1 188.5" stroke-dashoffset="65.1" transform="rotate(-90 770 382)">
+      <animate attributeName="stroke-dashoffset" from="65.1" to="0" dur="1.4s" begin="0.85s" fill="freeze"/>
+    </circle>
+    <text x="770" y="386" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#F6E7E1">35%</text>
+  </g>
+</g>
+<rect x="1" y="1" width="858" height="502" rx="22" fill="none" stroke="#6E2F4C" stroke-width="1.5"/>
+<text x="838" y="492" text-anchor="end" font-size="10" fill="#C49DA4" opacity=".8">itzzshut · github</text>
+</svg>
